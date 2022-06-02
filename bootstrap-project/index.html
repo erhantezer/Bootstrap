@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="./css/style.css">
 
 </head>
-<body>
+<body id="body">
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -234,7 +234,7 @@
 
         <!-- STUDENTS -->
 
-        <div style="border:4px solid red ;" class="container bg-light mt-5" id="students">
+        <div class="container bg-light mt-5" id="students">
           <h1 class="text-center text-danger display-6 mt-4">OUR STUDENTS</h1>
           <div class="row text-center align-items-center">
             <div class="col-12 col-md-6 mt-3">
@@ -251,7 +251,7 @@
           
         <!-- COURSES -->
 
-        <div style="border:4px solid red ;" class="container bg-dark p-3 mt-4" id="courses">
+        <div class="container bg-dark p-3 mt-4" id="courses">
           <h1 class="text-center text-danger display-6">COURSES</h1>
 
           <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -355,10 +355,11 @@
     
 
         <!-- CONTACT -->
-        <div class="container" id="contact">
+        <div class="container mt-3" id="contact">
           <h1 class="text-center text-danger display-6">COURSES</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, voluptates quia. Eveniet explicabo totam numquam? Maiores neque eaque facere mollitia Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, fuga?</p>
-          <div class="row text-center justify-content-center align-items-center">
+
+          <div class="row text-center justify-content-center align-items-center mt-4">
 
              <div class="col-sm-4" >
               <i class="fas fa-phone"></i>
@@ -399,22 +400,41 @@
                 <label for="floatingTextarea">Enter Your Comment</label>
               </div>
              
-              
-
-              <!-- BUTTON -->
             <div class="col-12 text-center">
               <button type="submit" class="btn btn-md btn-danger text-white">Submit</button>
             </div>
 
           </form>
-        </div>
 
+          <!-- LOCATION -->
+
+          <div class="mt-5 text-center" id="location">
+
+            <h1 class="text-center text-danger display-6">LOCATION</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14125.878974929321!2d8.559926769251735!3d46.959028977269675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47855a8555555555%3A0x5b4f3acd0f110d03!2sStrandbad%20und%20Camping%20Seelisberg!5e0!3m2!1str!2str!4v1654128601618!5m2!1str!2str" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+          </div>
+         </div>
+
+
+             <!-- BUTTON -->
+            <div class="btn" id="upbtn">
+              <a href="#body" class="up-btn"><i class="fas fa-arrow-up"></i>
+              </a>
+            </div>
 
               <!-- FOOTER -->
-              
 
-
-
+            <footer class="bg-dark text-center p-1" >
+             <div class=" icons p-2 ">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+             </div>
+             <p class="text-white">© 2022 Copyright by Clarusway</p> 
+            </footer>
 
 
          <!-- </main> -->
